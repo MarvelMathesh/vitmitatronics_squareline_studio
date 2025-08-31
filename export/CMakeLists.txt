@@ -1,0 +1,27 @@
+SET(SOURCES screens/ui_home.c
+    screens/ui_choose.c
+    screens/ui_payment.c
+    screens/ui_preparing.c
+    screens/ui_success.c
+    screens/ui_config.c
+    ui.c
+    components/ui_comp_hook.c
+    ui_helpers.c
+    images/ui_img_1238612230.c
+    images/ui_img_water_png.c
+    images/ui_img_config_png.c
+    images/ui_img_chevron_png.c
+    images/ui_img_stockpot_64dp_e3e3e3_fill0_wght400_grad0_opsz48_png.c
+    images/ui_img_yoshoku_132dp_e3e3e3_fill0_wght400_grad0_opsz48_png.c
+    images/ui_img_cooking_png.c
+    images/ui_img_check_png.c
+    fonts/ui_font_LoraRegular24.c
+    fonts/ui_font_LoraRegular40.c
+    fonts/ui_font_LoraRegular64.c
+    fonts/ui_font_OpenSansBold14.c
+    fonts/ui_font_OpenSansBold20.c
+    fonts/ui_font_OpenSansRegular16.c
+    fonts/ui_font_OpenSansRegular20.c
+    fonts/ui_font_OpenSansSemiBold16.c)
+
+add_library(ui ${SOURCES})
