@@ -1,52 +1,32 @@
 
-def homeConfigClicked(event_struct):
+def SetMasoorDal(event_struct):
     return
 
 
-def chooseButton1Clicked(event_struct):
+def SetSpinachSoup(event_struct):
     return
 
 
-def chooseButton2Clicked(event_struct):
+def SetTomatoSoup(event_struct):
     return
 
 
-def chooseBackButtonClicked(event_struct):
+def SetTurDal(event_struct):
     return
 
 
-def paymentBackButtonClicked(event_struct):
+def UpdateSpiceLevel(event_struct):
     return
 
 
-def preparingCancelButtonClicked(event_struct):
+def UpdateSalt(event_struct):
     return
 
 
-def successPanelButtonClicked(event_struct):
+def StartCooking(event_struct):
     return
 
 
-def configButtonEspressoClicked(event_struct):
-    return
-
-
-def configButtonCoffeeClicked(event_struct):
-    return
-
-
-def configButtonResetClicked(event_struct):
-    return
-
-
-def configButtonBackClicked(event_struct):
-    return
-
-
-def configButtonRestartClicked(event_struct):
-    return
-
-
-def configPasswordKeyboardValueChanged(event_struct):
+def IngredientBarSetup(event_struct):
     return
 
